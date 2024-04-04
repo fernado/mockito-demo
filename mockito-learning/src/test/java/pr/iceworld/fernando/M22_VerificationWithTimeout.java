@@ -1,18 +1,16 @@
 package pr.iceworld.fernando;
 
 import org.junit.jupiter.api.Test;
-import org.mockito.Mockito;
 
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static org.mockito.Mockito.timeout;
-import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.*;
 
 public class M22_VerificationWithTimeout {
     @Test
     void action022() {
-        TaskManager taskManager = Mockito.mock(TaskManager.class);
+        TaskManager taskManager = mock(TaskManager.class);
 
         simulateTaskAddAction(taskManager, 50);
 
