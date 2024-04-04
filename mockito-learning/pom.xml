@@ -12,6 +12,7 @@
 
     <groupId>pr.iceworld.fernando</groupId>
     <artifactId>mockito-learning</artifactId>
+    <packaging>jar</packaging>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
